@@ -1,0 +1,35 @@
+You can use this data to test the system:
+(for the team, I used the current season's data)
+
+Add Team>> 
+name: Utah Jazz
+wins: 52
+loses: 20
+ave_scores: 116.4
+ave_assists: 23.7
+ave_rebounds: 48.3
+ave_steals: 6.6
+ave_blocks: 5.2
+logo_filename: utah_jazz.png
+
+
+Add Player>>
+player Id: *any
+last name: Gobert
+first name: Rudy
+birthdate: 1992-06-26
+team: Utah Jazz
+position name: Center
+jersey_no: 27
+height: 7.1
+weight: 258
+pic_filename: rudy_gobert.png
+
+Add stats
+playerId: *what you used before
+no_matches/ games played: 577
+points: 6988
+Rebounds: 6489
+assists: 772
+steals: 393
+blocks: 1280

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addPlayerUI</class>
+ <widget class="QDialog" name="addPlayerUI">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Add Player</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="lbl_add_player">
+   <property name="geometry">
+    <rect>
+     <x>549</x>
+     <y>20</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Player</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_player_id">
+   <property name="geometry">
+    <rect>
+     <x>439</x>
+     <y>100</y>
+     <width>77</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Player ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_last_name">
+   <property name="geometry">
+    <rect>
+     <x>441</x>
+     <y>139</y>
+     <width>91</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_firstName">
+   <property name="geometry">
+    <rect>
+     <x>439</x>
+     <y>180</y>
+     <width>94</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>First Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_birthdate">
+   <property name="geometry">
+    <rect>
+     <x>439</x>
+     <y>220</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Birthdate</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="de_birthdate">
+   <property name="geometry">
+    <rect>
+     <x>599</x>
+     <y>220</y>
+     <width>191</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>320</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Position</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_position">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>320</y>
+     <width>311</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_jersey_no">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>370</y>
+     <width>88</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jersey No.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_height">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>420</y>
+     <width>89</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Height (ft)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_weight">
+   <property name="geometry">
+    <rect>
+     <x>439</x>
+     <y>460</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>weight (lbs)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_playerId">
+   <property name="geometry">
+    <rect>
+     <x>599</x>
+     <y>100</y>
+     <width>188</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_lastName">
+   <property name="geometry">
+    <rect>
+     <x>599</x>
+     <y>140</y>
+     <width>311</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>599</x>
+     <y>180</y>
+     <width>311</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addBtn_addplayer">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>520</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_height">
+   <property name="geometry">
+    <rect>
+     <x>601</x>
+     <y>415</y>
+     <width>179</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_weight">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>460</y>
+     <width>179</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetBtn_addplayer">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>520</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sb_jerseyNo">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>370</y>
+     <width>311</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>371</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="profilepic">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>placeholder.jpg</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="lbl_photoname">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>480</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Photo/file name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_photoname">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>440</y>
+     <width>271</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>270</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Team</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_team_addplayer">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>270</y>
+     <width>311</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
